@@ -36,5 +36,4 @@ Two SCUBA diving buddies have encountered a large, box-shaped storage facility i
 * A common but flawed approach with this assignment can cause the test driver to run for upwards of 20 minutes.  Since neither you nor the TAs have time to wait this long, you will need to resolve this issue if it arises.  Please refer to this powerpoint to understand the issue and possible solutions
 * For the createRandomMaze() to correctly generate random numbers, #include <cstdlib> and use rand().  You should call srand() exactly once when the Pathfinder is generated.
 * The format of the Maze Files are as follows: each row and column of the first 2D layer correspond to the x and y dimensions, respectively. The layers of 2D arrays correspond to the z dimension.
-* Visually, this is what your code is creating:
   
