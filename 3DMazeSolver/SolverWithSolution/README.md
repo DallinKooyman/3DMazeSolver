@@ -1,5 +1,5 @@
 # 3D Maze Solver
-Exploring a 3D maze
+Solving a 3D maze
 
 ## Purpose
 This lab will help you gain experience with recursion so that you are more comfortable using this powerful tool.
@@ -27,7 +27,7 @@ Two SCUBA diving buddies have encountered a large, box-shaped storage facility i
 ### File 5 - Generate Random Mazes (10 points)
 * This will test your createRandomMaze() function and your solveMaze() function.  
 * You will be required to generate several random mazes.  Because the mazes will be randomly generated, there is no key_file5 to compare against.  Rather, you should make sure that each generated maze is a valid maze.  Mazes will be tested by calling solveMaze() on the generated mazes.  You must return either a valid path or no path for each maze, and there should be several solvable mazes and several unsolvable mazes in the output.  If you have either no solvable mazes or unsolvable mazes, run the program again until several of each are generated.
-* The TA will have to check to make sure your Random Mazes are correct during the verification phase of the lab grading and it will not be checked by the autograder.
+
 
 
 ## Requirement Notes
@@ -36,6 +36,3 @@ Two SCUBA diving buddies have encountered a large, box-shaped storage facility i
 * A common but flawed approach with this assignment can cause the test driver to run for upwards of 20 minutes.  Since neither you nor the TAs have time to wait this long, you will need to resolve this issue if it arises.  Please refer to this powerpoint to understand the issue and possible solutions
 * For the createRandomMaze() to correctly generate random numbers, #include <cstdlib> and use rand().  You should call srand() exactly once when the Pathfinder is generated.
 * The format of the Maze Files are as follows: each row and column of the first 2D layer correspond to the x and y dimensions, respectively. The layers of 2D arrays correspond to the z dimension.
-* Visually, this is what your code is creating:
-
-
