@@ -1,5 +1,5 @@
 # 3D Maze Solver
-Exploring a 3D maze
+Solving a 3D maze
 
 ## Purpose
 This lab will help you gain experience with recursion so that you are more comfortable using this powerful tool.
