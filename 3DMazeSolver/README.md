@@ -24,6 +24,6 @@ out files and the key files can be compared for differences. Note a difference w
 the code that shows the solution is run.
 
 ## Author
-Written in the C++ language
-Brigham Young University Professors
+Written in the C++ language <br/>
+Brigham Young University Professors<br/>
 Dallin Kooyman
