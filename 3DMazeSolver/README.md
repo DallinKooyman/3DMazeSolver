@@ -5,7 +5,7 @@ Exploring a 3D maze
 This lab helped me gain experience with recursion.
 Can put in a 5x5x5 maze and find the solution
 
-#Background Info
+## Background Info
 This was a project for class where we learned about recursion. The goal was to make a 3D maze solver.
 For the project all the mazes were 5x5x5 but adjusting some of the numbers would most likely allow for
 mazes of all different sizes.
